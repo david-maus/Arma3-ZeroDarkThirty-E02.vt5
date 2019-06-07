@@ -1,0 +1,946 @@
+class radio1
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio1.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio2
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio2.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio3
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio3.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio4
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio4.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio5
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio5.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio6
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio6.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio7
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio7.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio8
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio8.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio9
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio9.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio10
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio10.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio11
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio11.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio12
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio12.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio13
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio13.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio14
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio14.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio15
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio15.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio16
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio16.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio17
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio17.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio18
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio18.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio19
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio19.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio20
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio20.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio21
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio21.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio22
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio22.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio23
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio23.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio24
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio24.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio25
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio25.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio26
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio26.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio27
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio27.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio28
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio28.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio29
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio29.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio30
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio30.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio31
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio31.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio32
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio32.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio33
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio33.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio34
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio34.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio35
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio35.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio36
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio36.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio37
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio37.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio38
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio38.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio39
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio39.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio40
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio40.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio41
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio41.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio42
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio42.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class radio43
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio43.ogg",
+        1,
+        1
+    };
+    titles[]={};
+};
+class player_radio1
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio1.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio2
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio2.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio3
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio3.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio4
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio4.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio5
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio5.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio6
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio6.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio7
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio7.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio8
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio8.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio9
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio9.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio10
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio10.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio11
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio11.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio12
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio12.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio13
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio13.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio14
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio14.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio15
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio15.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio16
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio16.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio17
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio17.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio18
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio18.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio19
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio19.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio20
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio20.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio21
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio21.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio22
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio22.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio23
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio23.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio24
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio24.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio25
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio25.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio26
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio26.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio27
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio27.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio28
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio28.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio29
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio29.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio30
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio30.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio31
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio31.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio32
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio32.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio33
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio33.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio34
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio34.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio35
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio35.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio36
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio36.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio37
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio37.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio38
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio38.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio39
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio39.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio40
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio40.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio41
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio41.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio42
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio42.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};
+class player_radio43
+{
+    name="";
+    sound[]=
+    {
+        "media\TPW\TPW_SOUNDS\sounds\radio43.ogg",
+        0.25,
+        1
+    };
+    titles[]={};
+};

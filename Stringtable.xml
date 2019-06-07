@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="ARMA3_GEF">
+    <Package name="GEF_MISSION">
+        <Container name="OPCOM">
+            <Key ID="str_gef_opcomLand">
+                <Original>
+Sehr gut Jungs,
+&lt;br/&gt;&lt;br/&gt;
+Als nächstes geht Ihr durch das kleine Waldgebiet östlich von euch.
+&lt;br/&gt;&lt;br/&gt;
+Wenn Ihr da durch seid, liegt das abgestürzte Flugzeug direkt vor euch auf einem Feld.
+&lt;br/&gt;&lt;br/&gt;
+Seid wachsam, das Lager ist genau auf der anderen Seite.
+                </Original>
+                <English>
+Alright guys,
+&lt;br/&gt;&lt;br/&gt;
+The next step is to walk thorugh the small forest in the east.
+&lt;br/&gt;&lt;br/&gt;
+After the forest the crashed plane is in front of you on a field.
+&lt;br/&gt;&lt;br/&gt;
+Be careful, the target house is on the other side..
+                </English>
+                <German>
+Sehr gut Jungs,
+&lt;br/&gt;&lt;br/&gt;
+Als nächstes geht Ihr durch das kleine Waldgebiet östlich von euch.
+&lt;br/&gt;&lt;br/&gt;
+Wenn Ihr da durch seid, liegt das abgestürzte Flugzeug direkt vor euch auf einem Feld.
+&lt;br/&gt;&lt;br/&gt;
+Seid wachsam, das Lager ist genau auf der anderen Seite.
+                </German>
+            </Key>
+            <Key ID="str_myTag_No">
+                <Original>no</Original>
+            </Key>
+        </Container>
+    </Package>
+</Project>

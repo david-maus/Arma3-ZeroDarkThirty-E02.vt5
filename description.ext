@@ -1,0 +1,223 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+///////////                   GEF MissionCreate Framework 1.0
+///////////                            David Maus
+/////////////////////////////////////////////////////////////////////////////////////////
+// description.ext - Missionseinstellungen sowie Beschreibung etc.
+
+#include "config\missionDescription.hpp"
+
+
+class Params
+{
+	class AISkill
+	{
+		title = "AI Skill"; // Param name visible in the list
+		values[] = {0,1,2}; // Values; must be integers; has to have the same number of elements as 'texts'
+		texts[] = {"Recruit","Regular","Veteran"}; // Description of each selectable item
+		default = 2; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+};
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+// -------------------------------------- config includes
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+cba_settings_hasSettingsFile = 1;
+// Was nicht gebraucht wird kann auskommentiert werden. Kein Muss.
+// Wenn auskommentiert bitte eventuelle Gegenparts in den inits ebenso deaktivieren
+/////////////////////////////////////////////////////////////////////////////////////////
+//------- FHQ Tasktracker -------
+
+#include "config\gui\CreateDialog.h"
+#include "config\gui\idCardDialog.h"
+
+class CfgFunctions
+{
+
+	#include "scripts\other\FHQ_TT\fhq_tasktracker.hpp"
+
+	#include "vcom\cfgFunctions.hpp"
+
+	class HLF
+	{
+		tag = "HLF";
+		class UnitCapture
+		{
+			file = "scripts\other\infUnitCapture\functions";
+			description = "Unit Capture Unit Play for Infantry.";
+
+			class infUnitCapture			{description = "Infantry unit capture, records movement, animation and (optional) firing";};
+			class infUnitCaptureAnim		{description = "Record unit animation (for infantry)";};
+			class infUnitCaptureFiring		{description = "Record unit firing (for infantry)";};
+			class infUnitPlayAnim			{description = "Plays unit animation (for infantry)";};
+			class infUnitPlayFiring			{description = "Plays unit firing (for infantry)";};
+		};
+	};
+
+	class GEF
+	{
+		tag = "GEF";
+		class GEF_conditions
+		{
+			file = "scripts\GEF\conditions";
+			description = "Conditions for GEF.";
+
+			class inArea 					{};
+			class inAnyVehicle 				{};
+			class inRadius 					{};
+			class inVehicle 				{};
+			class isAlive			 		{};
+			class isNotHostage		 		{};
+			class itemEquipped		 		{};
+			class itemInInventar	 		{};
+			class overHeight		 		{};
+			class underHeight		 		{};
+		};
+		class GEF_general
+		{
+			file = "scripts\GEF\general";
+			description = "functions for GEF.";
+
+			class addTask 					{};
+			class waitUntilAndExecute 		{};
+			class addAction 				{};
+			class addHoldAction 			{};
+			class addRespawn 				{};
+			class clientInfo 				{};
+			class endMission 				{};
+			class gasZoneCreate 			{};
+			class playAI 					{};
+			class playSound3D 				{};
+			class serverAddBriefing 		{};
+			class serverCallTask 			{};
+			class serverCompleteTask 		{};
+			class showGUIMessage 			{};
+			class showHintC 				{};
+			class showOpcom 				{};
+			class spawnExtract 				{};
+			class showTalkDialog			{};
+			class showHint					{};
+			class showInfo					{};
+			class showOpcomLocal			{};
+			class idSystem					{};
+			class idSystemCreateID			{};
+
+		};
+	};
+
+};
+
+class Extended_PreInit_EventHandlers {
+	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_CBASettings.sqf";
+};
+
+class CfgNotifications{
+ class NewBriefing {
+ title = "BRIEFING UPDATED";
+ iconPicture = "\a3\ui_f\data\IGUI\Cfg\Actions\talk_ca.paa";
+ description = "%2";
+ priority = 7;
+ };
+};
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+//------- R3F Logistics -------
+
+#include "scripts\other\R3F_LOG\desc_include.h"
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+//------- Postprocess Editor -------
+
+#include "scripts\other\GFPPE\GFPPE.hpp"
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+//------- Music Configs -------
+class CfgMusic
+{
+	tracks[]={};
+	#include "config\music\music.hpp"
+
+	#include "config\TPW\TPW_SOUNDS\music.hpp"
+};
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+//------- Images Configs -------
+class RscTitles
+{
+
+	#include "config\images\images.hpp"
+	#include "scripts\other\HelmAndGoggles_Extended_DM\overlays.hpp"
+
+};
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+//------- SFX Configs -------
+class CfgSFX
+{
+	sounds[] = {};
+	#include "config\sfx\sfx.hpp"
+	#include "config\sfx\sfxAmbientEastern.hpp"
+	#include "config\sfx\sfxAmbientTanoa.hpp"
+	#include "config\sfx\sfxAmbientIronFront.hpp"
+	#include "config\sfx\sfxAmbientAfrica.hpp"
+
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	#include "config\sounds\sounds.hpp"
+
+	#include "config\TPW\TPW_AMBIENCE\sounds.hpp"
+
+
+	#include "config\TPW\TPW_SOUNDS\sounds.hpp"
+
+	#include "scripts\other\HALO_DM\sounds.hpp"
+
+	#include "scripts\other\HelmAndGoggles_Extended_DM\sounds.hpp"
+
+	#include "scripts\other\AlNuke\sounds.hpp"
+
+	class NoSound
+	{
+	name = "NoSound";
+	sound[] = {"", 0, 1};
+	titles[] = {};
+	};
+};
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+//------- Server Info Menu -------
+
+#include "scripts\other\scarCODE\ServerInfoMenu\hpp\CfgServerInfoMenu.hpp"
+#include "scripts\other\scarCODE\ServerInfoMenu\hpp\RscDisplayServerInfoMenu.hpp"
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+__EXEC (MISSION_ROOT = __FILE__ select [0, count __FILE__ - 15])
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+// -------------------------------------- Hier unten andere Configs
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
